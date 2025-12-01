@@ -1,0 +1,468 @@
+{
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "icon": "BookOutlined",
+      "items": [
+        {
+          "id": "introduction",
+          "title": "Introduction to FaciliScope",
+          "path": "/documentation/getting-started/introduction",
+          "file": "getting-started/introduction.md",
+          "description": "Overview of FaciliScope and its purpose",
+          "tags": ["overview", "introduction", "basics"]
+        },
+        {
+          "id": "navigation-guide",
+          "title": "Navigation Guide",
+          "path": "/documentation/getting-started/navigation-guide",
+          "file": "getting-started/navigation-guide.md",
+          "description": "How to navigate the FaciliScope application",
+          "tags": ["navigation", "guide", "ui"]
+        },
+        {
+          "id": "basic-concepts",
+          "title": "Basic Concepts",
+          "path": "/documentation/getting-started/basic-concepts",
+          "file": "getting-started/basic-concepts.md",
+          "description": "Core concepts you need to understand",
+          "tags": ["concepts", "basics", "fundamentals"]
+        },
+        {
+          "id": "quick-start",
+          "title": "Quick Start Guide",
+          "path": "/documentation/getting-started/quick-start",
+          "file": "getting-started/quick-start.md",
+          "description": "Get up and running quickly with FaciliScope",
+          "tags": ["quickstart", "tutorial", "beginner"]
+        }
+      ]
+    },
+    {
+      "id": "facility-management-basics",
+      "title": "Facility Management Basics",
+      "icon": "HomeOutlined",
+      "items": [
+        {
+          "id": "what-is-facility-management",
+          "title": "Facility Management",
+          "path": "/documentation/facility-management-basics/what-is-facility-management",
+          "file": "facility-management-basics/what-is-facility-management.md",
+          "description": "Comprehensive introduction to Facility Management",
+          "tags": ["facility-management", "introduction", "basics"]
+        },
+        {
+          "id": "key-concepts",
+          "title": "Key Concepts",
+          "path": "/documentation/facility-management-basics/key-concepts",
+          "file": "facility-management-basics/key-concepts.md",
+          "description": "Essential Facility Management concepts",
+          "tags": ["concepts", "terminology", "basics"]
+        },
+        {
+          "id": "common-terminology",
+          "title": "Common Terminology",
+          "path": "/documentation/facility-management-basics/common-terminology",
+          "file": "facility-management-basics/common-terminology.md",
+          "description": "Glossary of Facility Management terms",
+          "tags": ["glossary", "terminology", "dictionary"]
+        },
+        {
+          "id": "facility-lifecycle",
+          "title": "Facility Lifecycle",
+          "path": "/documentation/facility-management-basics/facility-lifecycle",
+          "file": "facility-management-basics/facility-lifecycle.md",
+          "description": "Understanding the complete facility lifecycle",
+          "tags": ["lifecycle", "process", "overview"]
+        },
+        {
+          "id": "best-practices-overview",
+          "title": "Best Practices Overview",
+          "path": "/documentation/facility-management-basics/best-practices-overview",
+          "file": "facility-management-basics/best-practices-overview.md",
+          "description": "Industry best practices for Facility Management",
+          "tags": ["best-practices", "guidelines", "standards"]
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "title": "Resources",
+      "icon": "AppstoreOutlined",
+      "items": [
+        {
+          "id": "resources-overview",
+          "title": "Resources Overview",
+          "path": "/documentation/resources/overview",
+          "file": "resources/overview.md",
+          "description": "Overview of all resources in FaciliScope",
+          "tags": ["resources", "overview", "list"]
+        },
+        {
+          "id": "work-orders",
+          "title": "Work Orders",
+          "path": "/documentation/resources/work-orders",
+          "file": "resources/work-orders/index.md",
+          "description": "Complete guide to Work Orders",
+          "tags": ["work-orders", "maintenance", "tasks"],
+          "children": [
+            {
+              "id": "work-orders-workflows",
+              "title": "Workflows",
+              "path": "/documentation/resources/work-orders/workflows",
+              "file": "resources/work-orders/workflows.md"
+            },
+            {
+              "id": "work-orders-examples",
+              "title": "Examples",
+              "path": "/documentation/resources/work-orders/examples",
+              "file": "resources/work-orders/examples.md"
+            },
+            {
+              "id": "work-orders-best-practices",
+              "title": "Best Practices",
+              "path": "/documentation/resources/work-orders/best-practices",
+              "file": "resources/work-orders/best-practices.md"
+            }
+          ]
+        },
+        {
+          "id": "facilities",
+          "title": "Facilities",
+          "path": "/documentation/resources/facilities",
+          "file": "resources/facilities/index.md",
+          "description": "Complete guide to Facilities",
+          "tags": ["facilities", "buildings", "locations"]
+        },
+        {
+          "id": "assets",
+          "title": "Assets",
+          "path": "/documentation/resources/assets",
+          "file": "resources/assets/index.md",
+          "description": "Complete guide to Assets",
+          "tags": ["assets", "equipment", "inventory"]
+        },
+        {
+          "id": "maintenance-schedules",
+          "title": "Maintenance Schedules",
+          "path": "/documentation/resources/maintenance-schedules",
+          "file": "resources/maintenance-schedules/index.md",
+          "description": "Complete guide to Maintenance Schedules",
+          "tags": ["maintenance", "schedules", "preventive"]
+        },
+        {
+          "id": "spaces",
+          "title": "Spaces",
+          "path": "/documentation/resources/spaces",
+          "file": "resources/spaces/index.md",
+          "description": "Complete guide to Spaces",
+          "tags": ["spaces", "rooms", "locations"]
+        },
+        {
+          "id": "budgets",
+          "title": "Budgets",
+          "path": "/documentation/resources/budgets",
+          "file": "resources/budgets/index.md",
+          "description": "Complete guide to Budgets",
+          "tags": ["budgets", "finance", "costs"]
+        },
+        {
+          "id": "purchase-orders",
+          "title": "Purchase Orders",
+          "path": "/documentation/resources/purchase-orders",
+          "file": "resources/purchase-orders/index.md",
+          "description": "Complete guide to Purchase Orders",
+          "tags": ["purchase-orders", "procurement", "purchasing"]
+        },
+        {
+          "id": "vendors",
+          "title": "Vendors",
+          "path": "/documentation/resources/vendors",
+          "file": "resources/vendors/index.md",
+          "description": "Complete guide to Vendors",
+          "tags": ["vendors", "suppliers", "contractors"]
+        },
+        {
+          "id": "inventory",
+          "title": "Inventory",
+          "path": "/documentation/resources/inventory",
+          "file": "resources/inventory/index.md",
+          "description": "Complete guide to Inventory",
+          "tags": ["inventory", "stock", "parts"]
+        },
+        {
+          "id": "time-entries",
+          "title": "Time Entries",
+          "path": "/documentation/resources/time-entries",
+          "file": "resources/time-entries/index.md",
+          "description": "Complete guide to Time Entries",
+          "tags": ["time-entries", "time-tracking", "labor"]
+        },
+        {
+          "id": "compliance-records",
+          "title": "Compliance Records",
+          "path": "/documentation/resources/compliance-records",
+          "file": "resources/compliance-records/index.md",
+          "description": "Complete guide to Compliance Records",
+          "tags": ["compliance", "regulations", "certifications"]
+        },
+        {
+          "id": "documents",
+          "title": "Documents",
+          "path": "/documentation/resources/documents",
+          "file": "resources/documents/index.md",
+          "description": "Complete guide to Documents",
+          "tags": ["documents", "files", "attachments"]
+        },
+        {
+          "id": "work-order-templates",
+          "title": "Work Order Templates",
+          "path": "/documentation/resources/work-order-templates",
+          "file": "resources/work-order-templates/index.md",
+          "description": "Complete guide to Work Order Templates",
+          "tags": ["templates", "work-orders", "recurring"]
+        },
+        {
+          "id": "sla-definitions",
+          "title": "SLA Definitions",
+          "path": "/documentation/resources/sla-definitions",
+          "file": "resources/sla-definitions/index.md",
+          "description": "Complete guide to SLA Definitions",
+          "tags": ["sla", "service-level", "agreements"]
+        },
+        {
+          "id": "energy-meters",
+          "title": "Energy Meters",
+          "path": "/documentation/resources/energy-meters",
+          "file": "resources/energy-meters/index.md",
+          "description": "Complete guide to Energy Meters",
+          "tags": ["energy", "meters", "consumption"]
+        },
+        {
+          "id": "notifications",
+          "title": "Notifications",
+          "path": "/documentation/resources/notifications",
+          "file": "resources/notifications/index.md",
+          "description": "Complete guide to Notifications",
+          "tags": ["notifications", "alerts", "messages"]
+        },
+        {
+          "id": "users-organizations",
+          "title": "Users & Organizations",
+          "path": "/documentation/resources/users-organizations",
+          "file": "resources/users-organizations/index.md",
+          "description": "Complete guide to Users and Organizations",
+          "tags": ["users", "organizations", "accounts"]
+        }
+      ]
+    },
+    {
+      "id": "rbac",
+      "title": "RBAC & Permissions",
+      "icon": "SafetyOutlined",
+      "items": [
+        {
+          "id": "rbac-overview",
+          "title": "RBAC Overview",
+          "path": "/documentation/rbac/overview",
+          "file": "rbac/overview.md",
+          "description": "Introduction to Role-Based Access Control",
+          "tags": ["rbac", "permissions", "access-control"]
+        },
+        {
+          "id": "roles",
+          "title": "Roles",
+          "path": "/documentation/rbac/roles",
+          "file": "rbac/roles/index.md",
+          "description": "Understanding roles in FaciliScope",
+          "tags": ["roles", "permissions", "access"],
+          "children": [
+            {
+              "id": "root",
+              "title": "ROOT Role",
+              "path": "/documentation/rbac/roles/root",
+              "file": "rbac/roles/root.md"
+            },
+            {
+              "id": "admin",
+              "title": "ADMIN Role",
+              "path": "/documentation/rbac/roles/admin",
+              "file": "rbac/roles/admin.md"
+            },
+            {
+              "id": "manager",
+              "title": "MANAGER Role",
+              "path": "/documentation/rbac/roles/manager",
+              "file": "rbac/roles/manager.md"
+            },
+            {
+              "id": "supervisor",
+              "title": "SUPERVISOR Role",
+              "path": "/documentation/rbac/roles/supervisor",
+              "file": "rbac/roles/supervisor.md"
+            },
+            {
+              "id": "technician",
+              "title": "TECHNICIAN Role",
+              "path": "/documentation/rbac/roles/technician",
+              "file": "rbac/roles/technician.md"
+            },
+            {
+              "id": "accountant",
+              "title": "ACCOUNTANT Role",
+              "path": "/documentation/rbac/roles/accountant",
+              "file": "rbac/roles/accountant.md"
+            },
+            {
+              "id": "viewer",
+              "title": "VIEWER Role",
+              "path": "/documentation/rbac/roles/viewer",
+              "file": "rbac/roles/viewer.md"
+            }
+          ]
+        },
+        {
+          "id": "permissions-matrix",
+          "title": "Permissions Matrix",
+          "path": "/documentation/rbac/permissions-matrix",
+          "file": "rbac/permissions-matrix.md",
+          "description": "Complete permissions matrix for all roles",
+          "tags": ["permissions", "matrix", "access-control"]
+        },
+        {
+          "id": "assignment-system",
+          "title": "Assignment System",
+          "path": "/documentation/rbac/assignment-system",
+          "file": "rbac/assignment-system.md",
+          "description": "Understanding the multiple assignment system",
+          "tags": ["assignments", "multiple-users", "access"]
+        },
+        {
+          "id": "access-control-examples",
+          "title": "Access Control Examples",
+          "path": "/documentation/rbac/access-control-examples",
+          "file": "rbac/access-control-examples.md",
+          "description": "Real-world access control scenarios",
+          "tags": ["examples", "scenarios", "access-control"]
+        }
+      ]
+    },
+    {
+      "id": "field-reference",
+      "title": "Field Reference",
+      "icon": "FileTextOutlined",
+      "items": [
+        {
+          "id": "index",
+          "title": "Field Reference Overview",
+          "path": "/documentation/field-reference",
+          "file": "field-reference/index.md",
+          "description": "Complete field reference for all resources",
+          "tags": ["fields", "reference", "dictionary"]
+        },
+        {
+          "id": "work-orders-fields",
+          "title": "Work Order Fields",
+          "path": "/documentation/field-reference/work-orders-fields",
+          "file": "field-reference/work-orders-fields.md",
+          "description": "Complete work order field reference",
+          "tags": ["work-orders", "fields"]
+        },
+        {
+          "id": "assets-fields",
+          "title": "Asset Fields",
+          "path": "/documentation/field-reference/assets-fields",
+          "file": "field-reference/assets-fields.md",
+          "description": "Complete asset field reference",
+          "tags": ["assets", "fields"]
+        },
+        {
+          "id": "facilities-fields",
+          "title": "Facility Fields",
+          "path": "/documentation/field-reference/facilities-fields",
+          "file": "field-reference/facilities-fields.md",
+          "description": "Complete facility field reference",
+          "tags": ["facilities", "fields"]
+        },
+        {
+          "id": "maintenance-schedules-fields",
+          "title": "Maintenance Schedule Fields",
+          "path": "/documentation/field-reference/maintenance-schedules-fields",
+          "file": "field-reference/maintenance-schedules-fields.md",
+          "description": "Complete maintenance schedule field reference",
+          "tags": ["maintenance-schedules", "fields"]
+        },
+        {
+          "id": "budgets-fields",
+          "title": "Budget Fields",
+          "path": "/documentation/field-reference/budgets-fields",
+          "file": "field-reference/budgets-fields.md",
+          "description": "Complete budget field reference",
+          "tags": ["budgets", "fields"]
+        },
+        {
+          "id": "purchase-orders-fields",
+          "title": "Purchase Order Fields",
+          "path": "/documentation/field-reference/purchase-orders-fields",
+          "file": "field-reference/purchase-orders-fields.md",
+          "description": "Complete purchase order field reference",
+          "tags": ["purchase-orders", "fields"]
+        }
+      ]
+    },
+    {
+      "id": "workflows",
+      "title": "Workflows",
+      "icon": "ThunderboltOutlined",
+      "items": [
+        {
+          "id": "common-workflows",
+          "title": "Common Workflows",
+          "path": "/documentation/workflows/common-workflows",
+          "file": "workflows/common-workflows.md",
+          "description": "Common workflows in FaciliScope",
+          "tags": ["workflows", "processes", "guides"]
+        },
+        {
+          "id": "work-order-lifecycle",
+          "title": "Work Order Lifecycle",
+          "path": "/documentation/workflows/work-order-lifecycle",
+          "file": "workflows/work-order-lifecycle.md",
+          "description": "Complete work order lifecycle workflow",
+          "tags": ["work-orders", "lifecycle", "workflow"]
+        },
+        {
+          "id": "maintenance-workflow",
+          "title": "Maintenance Workflow",
+          "path": "/documentation/workflows/maintenance-workflow",
+          "file": "workflows/maintenance-workflow.md",
+          "description": "Preventive maintenance workflow",
+          "tags": ["maintenance", "workflow", "preventive"]
+        },
+        {
+          "id": "budget-management-workflow",
+          "title": "Budget Workflow",
+          "path": "/documentation/workflows/budget-management-workflow",
+          "file": "workflows/budget-management-workflow.md",
+          "description": "Budget creation and management workflow",
+          "tags": ["budgets", "workflow", "finance"]
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "work-orders": ["assets", "facilities", "maintenance-schedules", "time-entries", "documents", "notifications"],
+    "assets": ["facilities", "work-orders", "maintenance-schedules", "compliance-records"],
+    "facilities": ["assets", "work-orders", "spaces", "energy-meters"],
+    "maintenance-schedules": ["assets", "facilities", "work-orders"],
+    "purchase-orders": ["vendors", "inventory", "budgets"],
+    "budgets": ["work-orders", "purchase-orders", "facilities"],
+    "inventory": ["facilities", "spaces", "work-orders", "purchase-orders"],
+    "compliance-records": ["assets", "facilities"],
+    "documents": ["work-orders", "assets", "facilities", "compliance-records"],
+    "time-entries": ["work-orders"],
+    "notifications": ["work-orders", "maintenance-schedules", "compliance-records"]
+  }
+}
+
