@@ -17,8 +17,8 @@ const DocumentationContent = ({ content, path, title }) => {
   const [headings, setHeadings] = useState([]);
   const [previousNext, setPreviousNext] = useState({ previous: null, next: null });
   
-  // Determine base path from current path
-  const basePath = path.startsWith('/docs') ? '/docs' : '/documentation';
+  // Determine base path from current path (docs app uses /docs)
+  const basePath = '/docs';
 
   useEffect(() => {
     if (!content) {
@@ -227,11 +227,11 @@ const DocumentationContent = ({ content, path, title }) => {
                   // Handle internal documentation links
                   if (href?.startsWith('/documentation') || href?.startsWith('/docs')) {
                     return (
-                      <a 
-                        href={href} 
-                        onClick={(e) => { 
+                      <a
+                        href={href}
+                        onClick={(e) => {
                           e.preventDefault();
-                          // Normalize path
+                          // Normalize path to /docs
                           let navPath = href;
                           if (href.startsWith('/documentation')) {
                             navPath = href.replace('/documentation', '/docs');
@@ -254,7 +254,11 @@ const DocumentationContent = ({ content, path, title }) => {
                     );
                   }
                   // External links
-                  return <a href={href} target="_blank" rel="noopener noreferrer" {...props}>{children}</a>;
+                  return (
+                    <a href={href} target="_blank" rel="noopener noreferrer" {...props}>
+                      {children}
+                    </a>
+                  );
                 },
                 table: ({ children }) => (
                   <div style={{ overflowX: 'auto', margin: '16px 0' }}>

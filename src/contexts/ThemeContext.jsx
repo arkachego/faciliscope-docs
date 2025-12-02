@@ -24,10 +24,28 @@ export const ThemeProvider = ({ children }) => {
   };
 
   const getThemeConfig = () => {
+    const primary = '#009FB7';
+
     return {
       algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
       token: {
-        colorPrimary: '#1890ff',
+        colorPrimary: primary,
+        borderRadius: 6,
+        fontSize: 14,
+        fontFamily: "Maven Pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+      },
+      components: {
+        Layout: {
+          headerBg: isDark ? '#1f1f1f' : '#fff',
+          headerColor: isDark ? '#fff' : '#000',
+          bodyBg: isDark ? '#000000' : '#f5f7fa',
+          siderBg: isDark ? '#141414' : '#001529',
+        },
+        Menu: {
+          darkItemBg: '#141414',
+          darkSubMenuItemBg: '#0f0f0f',
+          darkItemSelectedBg: primary,
+        },
       },
     };
   };

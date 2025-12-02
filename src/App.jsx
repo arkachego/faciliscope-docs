@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ConfigProvider } from 'antd';
 import { ThemeProvider, useTheme } from './contexts/ThemeContext';
-import DocumentationPage from './pages/documentation/DocumentationPage';
+import DocumentationPage from './pages/documentation/PublicDocumentationPage';
 
 function AppContent() {
   const { getThemeConfig } = useTheme();
@@ -11,9 +11,17 @@ function AppContent() {
     <ConfigProvider theme={getThemeConfig()}>
       <Router>
         <Routes>
-          <Route path="/" element={<Navigate to="/docs" replace />} />
+          {/* Default to Introduction to FaciliScope under /docs */}
+          <Route
+            path="/"
+            element={<Navigate to="/docs/getting-started/introduction" replace />}
+          />
+          <Route
+            path="/docs"
+            element={<Navigate to="/docs/getting-started/introduction" replace />}
+          />
+          {/* Main docs routes */}
           <Route path="/docs/*" element={<DocumentationPage />} />
-          <Route path="/docs" element={<DocumentationPage />} />
         </Routes>
       </Router>
     </ConfigProvider>
